@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header{
+    background: #000000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 150px;
+}
+
+nav{
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a{
+    color: #b9b9b9;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover{
+
+    background: #575757;
+    border-radius: 5px;
+}
+
+.contact {
+    padding: 200px 0; /* Ajuste o padding da seção */
+    background: #b9b9b9;
+    text-align: center;
+}
+
+.contact-text {
+    margin-bottom: 80px; /* Ajuste a margem inferior se necessário */
+}
+
+.contact p {
+    margin: 1; /* Remove a margem padrão */
+}
+
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    width: 100%;
+}
+
+form button {
+    background: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+.contatoslegal {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    gap: 20px; /* Espaço entre os ícones */
+    padding: 20px 0;
+}
+
+.social-icon {
+    width: 30px;
+    height: auto;
+}
+
+footer {
+    background: #fead78;
+    color: #575757;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

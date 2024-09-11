@@ -1,0 +1,91 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #36231f;
+}
+
+header{
+    background: #000000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo{
+    float: left;
+    width: 150px;
+}
+
+nav{
+    float: right;
+    margin-top: 10px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a{
+    color: #b9b9b9;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover{
+
+    background: #575757;
+    border-radius: 5px;
+}
+
+.hero {
+    background: url('../imagens/burger.png')no-repeat center center/cover;
+    display: flex;            /* Habilita o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 60vh;           /* Ocupa toda a altura da viewport */
+    
+}
+
+
+
+
+
+
+.cta-button:hover{
+    background: #24fbff;
+}
+
+.features{
+    padding: 20px 0;
+}
+
+.feature{
+    background: #b9b9b9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.feature img{
+    max-width: 500px;
+    height:500px;
+    border-radius: 5px;
+}
+
+footer{
+    background: #fead78;
+    color:#fff;
+    text-align: center;
+    padding: 10px 0;
+}
